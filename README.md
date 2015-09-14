@@ -1,2 +1,2 @@
-# ruby-by-Chris-Pine
-This is a repository containing exercises from the prework for Ruby on Rails course by Chris Pine.
+# ruby by Chris Pine
+This is a repository containing exercises from the prework for Ruby on Rails course by Chris Pine. More exercises: <a href="https://pine.fm/LearnToProgram" title="Learn to program">Learn to program (Chris Pine)</a>
