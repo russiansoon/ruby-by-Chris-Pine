@@ -11,5 +11,9 @@ This is a repository containing exercises from the prework for Ruby on Rails cou
 
 ## Articles & books
 
-**Kruglov A. 'Ruby 2.0.0p247'**: <a href="https://dl.dropboxusercontent.com/u/75172405/Ruby.pdf">Ruby.pdf</a>
-**Podcasts**: <a href="http://www.rwpod.com/">RW POD</a>, <a href="http://rubynoname.ru/">RubyNoName</a>
+### Books
+1. <a href="https://dl.dropboxusercontent.com/u/75172405/Ruby.pdf">**Kruglov A. 'Ruby 2.0.0p247'**</a>
+
+### Podcasts 
+1. <a href="http://www.rwpod.com/">RW POD</a>
+2. <a href="http://rubynoname.ru/">RubyNoName</a>
