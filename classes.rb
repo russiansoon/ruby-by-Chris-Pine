@@ -49,7 +49,6 @@ class Dragon
 		@asleep = false
 		@stuffInBelly = 10 # He is full
 		@stuffInIntestine = 0 # Dragon doesn't need to walk
-
 		puts @name + ' is born'
 	end
 
@@ -157,3 +156,96 @@ pet.putToBed
 pet.putToBed
 pet.putToBed
 pet.putToBed	
+
+puts '--------------------------------'
+
+puts 'Orange Tree:'
+
+class OrangeTree
+
+	def initialize tree # create tree
+		@tree = tree
+		@treeHight = 1
+		age = 0
+		oranges = 0
+		puts 'You just planted new orange tree ;)'
+	end
+
+	def oneYearLater
+		@age = @age.to_i + 1
+
+		if @age > 17
+			puts 'Your tree has died ;('
+				@treeHight = @treeHight
+			else
+				@treeHight = @treeHight + 3
+			end
+			if (@age > 3 and @age < 13)
+				@oranges = 2 * @age
+			else
+				@oranges = 0
+			end
+		end
+
+	def height
+		puts 'Your tree is currently ' + @treeHight.to_s + ' feet'
+	end
+
+	def countOranges
+		puts 'Your tree has ' + @oranges.to_s + ' oranges'
+	end
+
+	def pickOranges
+		if @oranges < 1
+			puts 'No oranges to pick'
+		else
+			@oranges = @oranges - 1
+			puts 'Orange is nice!!'
+		end
+	end
+end
+
+myTree = OrangeTree.new 'First tree'
+myTree.height
+myTree.oneYearLater
+myTree.countOranges
+myTree.oneYearLater
+myTree.height
+myTree.oneYearLater
+myTree.countOranges
+myTree.oneYearLater
+myTree.countOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.oneYearLater
+myTree.height
+myTree.oneYearLater
+myTree.countOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.oneYearLater
+myTree.height
+myTree.oneYearLater
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.oneYearLater
+myTree.countOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.pickOranges
+myTree.oneYearLater
+myTree.height
+myTree.countOranges
+myTree.oneYearLater
+myTree.height
+myTree.countOranges
