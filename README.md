@@ -8,3 +8,8 @@ This is a repository containing exercises from the prework for Ruby on Rails cou
 ## Other
 
 **OOP.rb**: <a href="http://7vn.ru/blog/2011/11/18/object-model/">Object Model of Ruby</a>
+
+## Articles & books
+
+**Kruglov A. 'Ruby 2.0.0p247'**: <a href="https://dl.dropboxusercontent.com/u/75172405/Ruby.pdf">Ruby.pdf</a>
+**Podcasts**: <a href="http://www.rwpod.com/">RW POD</a>, <a href="http://rubynoname.ru/">RubyNoName</a>
