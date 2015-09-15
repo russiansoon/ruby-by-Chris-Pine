@@ -106,3 +106,38 @@ end
 
 puts '--------------------------------------'
 
+puts 'Lesson about clock of GRANDFATHER'
+
+def grandfatherClock &block
+	currentHour = Time.now.hour # time is now
+
+	if currentHour > 12 # if 13, 14, 15 etc
+		currentHour = currentHour - 12
+	end
+
+	currentHour.times do
+		block.call
+	end
+end
+
+grandfatherClock do
+	puts 'DOOOOOOONG'
+end
+
+puts '--------------------------------------'
+
+def log descriptionOfBlock1, &block1
+	puts 'New block is started'
+	block1.call
+	number = descriptionOfBlock1.to_i + 1
+	puts 'Block return: ' + number.to_s
+end
+
+log 19 do
+	puts 'Now another block is starting'
+	log 9 do
+		puts 'Now final block is starting'
+			log 2 do
+		end
+	end
+end
