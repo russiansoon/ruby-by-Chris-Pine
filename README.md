@@ -17,3 +17,6 @@ This is a repository containing exercises from the prework for Ruby on Rails cou
 ### Podcasts 
 1. <a href="http://www.rwpod.com/">RW POD</a>
 2. <a href="http://rubynoname.ru/">RubyNoName</a>
+
+### Articles
+<a href="https://www.codecademy.com/articles/request-response-cycle-static">Request-Response Cycle I</a>
